@@ -1,0 +1,9 @@
+/* The heart of the matter */
+.testimonial-group > .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .testimonial-group > .row > .col {
+    flex: 0 0 auto;
+  }
