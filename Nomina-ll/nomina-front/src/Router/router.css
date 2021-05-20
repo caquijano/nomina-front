@@ -1,0 +1,10 @@
+.PrivateRouter{
+    display: inline-block;
+     width: 81%;
+    transition: 850ms;
+  }
+  .PrivateRouter.active{
+    display: inline-block;
+     width: 100%;
+    transition: 350ms;
+  }
