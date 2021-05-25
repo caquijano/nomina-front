@@ -1,9 +1,13 @@
 import React from "react";
 import {
   IoCash,
+  IoCashOutline,
   IoClipboardSharp,
   IoPeople,
   IoSettings,
+  IoStatsChartOutline,
+  IoWalletOutline,
+  IoWalletSharp,
   IoWatch,
 } from "react-icons/io5";
 
@@ -20,8 +24,13 @@ export const SideBarData = [
     link: "/settingsform",
   },
   {
+    title: "Cuentas",
+    icon: <IoWalletSharp />,
+    link: "/cuentas",
+  },
+  {
     title: "Escala Salarial",
-    icon: <IoCash />,
+    icon: <IoStatsChartOutline />,
     link: "/escalasalarial",
   },
   {
