@@ -19,6 +19,7 @@ import EmpleadosList from "../components/Empleados/EmpleadosList";
 import Nomina from "../components/Nomina/NominaForm";
 import HextraForm from "../components/HExtras/HextraForm";
 import CuentasList from "../components/Cuentas/CuentasList";
+import LiquidacionForm from "../components/Liquidacion/LiquidacionForm";
 
 function PrivateRouter(){
  
@@ -41,6 +42,7 @@ function PrivateRouter(){
             <Route exact path="/nomina" component={Nomina} />
             <Route exact path="/novedades" component={HextraForm} />
             <Route exact path="/cuentas" component={CuentasList} />
+            <Route exact path="/liquidacion" component={LiquidacionForm} />
               <Redirect from="/**" to="/" />
             </Switch>
           </div>

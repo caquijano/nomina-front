@@ -62,7 +62,7 @@ function EmpleadosForm() {
   return (
     <div style={{ padding: "5%" }}>
       <div style={{ textAlign: "center" }}>
-        <h4>Contratación</h4>
+        <h4>Datos Empleado</h4>
       </div>
 
       <form className="row g-3" onSubmit={handlSubmit}>

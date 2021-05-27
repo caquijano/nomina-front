@@ -1,12 +1,10 @@
 import React from "react";
 import {
   IoCash,
-  IoCashOutline,
   IoClipboardSharp,
   IoPeople,
   IoSettings,
   IoStatsChartOutline,
-  IoWalletOutline,
   IoWalletSharp,
   IoWatch,
 } from "react-icons/io5";
@@ -34,9 +32,9 @@ export const SideBarData = [
     link: "/escalasalarial",
   },
   {
-    title: "Liquidar colaborador",
+    title: "Calcular Liquidación",
     icon: <IoCash />,
-    link: "/",
+    link: "/liquidacion",
   },
   {
     title: "Nomina",

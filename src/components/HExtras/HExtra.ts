@@ -8,5 +8,4 @@ export interface HExtra{
     fechaNovedad: string | Date;
     createAt?: string | Date;
     updateAt?: string | Date;
-
 }
