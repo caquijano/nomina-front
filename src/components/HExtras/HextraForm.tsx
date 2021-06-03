@@ -104,7 +104,7 @@ function HextraForm() {
     <>
       <div style={{ padding: "5%" }}>
         <div style={{ textAlign: "center" }}>
-          <h4>Horas Extras {moment(new Date()).format('MMMM')}</h4>
+          <h4>Horas Extras Mayo</h4>
         </div>
         <form className="row g-3" onSubmit={handlSubmit}>
           <div className="col-md-5">
@@ -133,7 +133,7 @@ function HextraForm() {
             <input
               type="date"
               min="2021-05-01"
-              max={moment(new Date()).format("YYYY-MM-DD")}
+              max="2021-05-31"
               className="form-control"
               name="fechaNovedad"
               onChange={handlerInputChange}

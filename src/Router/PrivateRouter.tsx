@@ -17,9 +17,11 @@ import EscSalarialForm from "../components/EscalaSalarial/EscSalarialForm";
 import EmpleadosForm from "../components/Empleados/EmpleadosForm";
 import EmpleadosList from "../components/Empleados/EmpleadosList";
 import Nomina from "../components/Nomina/NominaForm";
-import HextraForm from "../components/HExtras/HextraForm";
+import HextraForm from "../components/HExtras/HorasExtras";
 import CuentasList from "../components/Cuentas/CuentasList";
 import LiquidacionForm from "../components/Liquidacion/LiquidacionForm";
+import Nominas from "../components/Nomina/Nominas";
+import Liquidacion from "../components/Liquidacion/Liquidacion";
 
 function PrivateRouter(){
  
@@ -39,10 +41,10 @@ function PrivateRouter(){
             <Route exact path="/escalasalarial" component={EscSalarialForm} />
             <Route exact path="/colaboradoreslist" component={EmpleadosList}/>
             <Route exact path="/colaboradores" component={EmpleadosForm} />
-            <Route exact path="/nomina" component={Nomina} />
+            <Route exact path="/nomina" component={Nominas} />
             <Route exact path="/novedades" component={HextraForm} />
             <Route exact path="/cuentas" component={CuentasList} />
-            <Route exact path="/liquidacion" component={LiquidacionForm} />
+            <Route exact path="/liquidacion" component={Liquidacion } />
               <Redirect from="/**" to="/" />
             </Switch>
           </div>

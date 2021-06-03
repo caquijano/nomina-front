@@ -303,7 +303,7 @@ function NominaForm() {
             }}
           >
             <h4>
-              Liquidar Nomina 01 - 31 de {moment(fecha).format("MMMM")}{" "}
+              Liquidar Nomina 01 - 31 de Mayo{" "}
               {fecha.getFullYear()}{" "}
             </h4>
             <h4>Ya se realizo la liquidacion de la nomina</h4>
@@ -370,7 +370,7 @@ function NominaForm() {
           <div style={{ padding: "5%" }}>
             <div style={{ textAlign: "center", marginBottom: 20 }}>
               <h4>
-                Liquidar Nomina 01 - 31 de {moment(fecha).format("MMMM")}{" "}
+                Liquidar Nomina 01 - 31 de Mayo{" "}
                 {fecha.getFullYear()}{" "}
               </h4>
             </div>
