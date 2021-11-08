@@ -104,7 +104,7 @@ function HextraForm() {
     <>
       <div style={{ padding: "5%" }}>
         <div style={{ textAlign: "center" }}>
-          <h4>Horas Extras Mayo</h4>
+          <h4>Horas Extras Octubre</h4>
         </div>
         <form className="row g-3" onSubmit={handlSubmit}>
           <div className="col-md-5">

@@ -179,7 +179,7 @@ function NominaForm() {
       const date =
         -Math.ceil(
           (new Date(element.fechaEntrada).getTime() -
-            new Date("2021-05-31").getTime()) /
+            new Date().getTime()) /
             86400000
         ) + 1;
       const dias = await workingDays(date);
@@ -303,7 +303,7 @@ function NominaForm() {
             }}
           >
             <h4>
-              Liquidar Nomina 01 - 31 de Mayo{" "}
+              Liquidar Nomina 01 - 31 de Octubre{" "}
               {fecha.getFullYear()}{" "}
             </h4>
             <h4>Ya se realizo la liquidacion de la nomina</h4>
@@ -370,7 +370,7 @@ function NominaForm() {
           <div style={{ padding: "5%" }}>
             <div style={{ textAlign: "center", marginBottom: 20 }}>
               <h4>
-                Liquidar Nomina 01 - 31 de Mayo{" "}
+                Liquidar Nomina 01 - 31 de Octubre{" "}
                 {fecha.getFullYear()}{" "}
               </h4>
             </div>
